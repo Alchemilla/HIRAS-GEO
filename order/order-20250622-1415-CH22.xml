@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<GeoProcess>
+	<satellite>
+		<name>FY3F</name>
+		<sounder>HIRAS</sounder>
+		<step>EVA</step>
+		<!--GEO:Geometry Positioning, CALI:Geometric Calibration-->
+		<!--YW:Original HIRAS Evaluation, EVA:Correcion HIRAS Evaluation -->
+		<run>FAST</run><!--VERY-FAST,FAST,MID,SLOW,CALI-FAST,CALI -->
+	</satellite>
+    <paramDir>
+		<EOPpath></EOPpath>
+		<JPLpath></JPLpath>
+		<DEMpath>E:\4-SOFT\global_DEM.tif</DEMpath>
+		<GCPpath>E:\1-FY3F\Paper\20250622\FY3F_HIRAS_GRAN_L1_20250622_1415_014KM_V0_err22.txt</GCPpath><!--Use Original Evaluation result-->
+		<Innerpath>E:\1-FY3F\Paper\caliparam_CH22_2025.06.22.txt</Innerpath>
+	</paramDir>	
+	<dataDir>
+		<posatt>E:\1-FY3F\AllPaperData\20250622_1415\FY3F_ENGIN_SAOD_00_20250622_0000.HDF</posatt>
+		<hiras_OBCpath>E:\1-FY3F\AllPaperData\20250622_1415\FY3F_HIRAS_GRAN_1A_20250622_1415_OBC--_V0.HDF</hiras_OBCpath>
+		<hiras_L1path>E:\1-FY3F\AllPaperData\20250622_1415\FY3F_HIRAS_GRAN_L1_20250622_1415_014KM_V0.HDF</hiras_L1path>
+		<mersi_L1path>E:\1-FY3F\AllPaperData\20250622_1415\FY3F_MERSI_GRAN_L1_20250622_1415_1000M_V0.HDF</mersi_L1path>
+		<mersi_GEOpath>E:\1-FY3F\AllPaperData\20250622_1415\FY3F_MERSI_GRAN_L1_20250622_1415_GEO1K_V0.HDF</mersi_GEOpath>
+	</dataDir>
+	<SRF>
+		<MERSI_SRF>E:\1-FY3F\SRF\FY3F_MERSI_SRF_CH22_Pub.txt</MERSI_SRF>
+		<MERSI_CH>22</MERSI_CH>	<!--25,24:LW,22:MW1,21:MW2-->	
+	</SRF>
+	<outputDir>E:\1-FY3F\AllPaperData\20250622_1415</outputDir>
+</GeoProcess>
