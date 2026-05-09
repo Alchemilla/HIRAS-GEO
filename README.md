@@ -18,7 +18,7 @@ The evaluation data are also provided as examples, which can be downloaded from 
 - [Software](https://github.com/Alchemilla/HIRAS-GEO/releases/download/V1.0/1-GEO_HIRAS.rar)
 - [Test Data](https://github.com/Alchemilla/HIRAS-GEO/releases/download/V1.0/2-TestData.rar)
 - [Figure Data](https://github.com/Alchemilla/HIRAS-GEO/releases/download/V1.0/3-FigureData.rar)
-- [NSMC_data](https://nsmc.org.cn)
+- [NSMC_data](https://satellite.nsmc.org.cn/DataPortal/en/home/index.html)
 
 ## Contact
 For questions or collaboration, please contact guanzc@cma.gov.cn
