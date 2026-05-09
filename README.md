@@ -11,10 +11,14 @@ Only one parameters are required. In the XML file, modify the data path in the c
 
 The TXT dataset such as "FY3F_HIRAS_GRAN_L1_20250622_1415_014KM_V0_err22.txt" contain registration points / groud control points (GCPs), which could be used to validate the geolocation accuracy or acquire the correction parameters. The 1&2 columns are original lat&lon, 3&4 columns are true lat&lon, 5&6 columns are along&cross track accuracy (units: HIRAS FOV), 7 columns are geometric positioning error in kilometers. 
 
-The evaluation are also provided as examples, which can be downloaded from . The original datas inluding HIRAS and MERSI are required, which can be download from NSMC. This program is a part of our manuscript "Geometric Positioning and Correction for the FY-3F HIRAS".
+The evaluation data are also provided as examples, which can be downloaded from Test Data and Figure Data. The original datas inluding HIRAS and MERSI are required, which can be download from NSMC_data. This program is a part of our manuscript "Geometric Positioning and Correction for the FY-3F HIRAS".
 
 ## Related Links
 
-- [Releases](https://github.com/user/repo/releases)
-- [Test Data](https://github.com/user/repo/issues)
-- [FY data](https://nsmc.org.cn)
+- [Software](https://github.com/Alchemilla/HIRAS-GEO/releases/download/V1.0/1-GEO_HIRAS.rar)
+- [Test Data](https://github.com/Alchemilla/HIRAS-GEO/releases/download/V1.0/2-TestData.rar)
+- [Figure Data](https://github.com/Alchemilla/HIRAS-GEO/releases/download/V1.0/3-FigureData.rar)
+- [NSMC_data](https://nsmc.org.cn)
+
+## Contact
+For questions or collaboration, please contact guanzc@cma.gov.cn
